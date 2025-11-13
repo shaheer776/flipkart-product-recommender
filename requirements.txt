@@ -1,7 +1,11 @@
-kubectl create secret generic llmops-secrets \
-  --from-literal=GROQ_API_KEY="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" \
-  --from-literal=ASTRA_DB_APPLICATION_TOKEN="https://84b8d1ba-8ba1-463a-a12b-f4ad1e99f2f9-us-east-2.apps.astra.datastax.com" \
-  --from-literal=ASTRA_DB_KEYSPACE="default_keyspace" \
-  --from-literal=ASTRA_DB_API_ENDPOINT="https://84b8d1ba-8ba1-463a-a12b-f4ad1e99f2f9-us-east-2.apps.astra.datastax.com" \
-  --from-literal=HF_TOKEN="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" \
-  --from-literal=HUGGINGFACEHUB_API_TOKEN="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"
+langchain
+langchain-astradb
+langchain-huggingface
+langchain-groq
+langchain-community
+datasets
+pypdf
+python-dotenv
+pandas
+flask
+prometheus_client
