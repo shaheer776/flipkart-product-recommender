@@ -1,9 +1,9 @@
-langchain>=0.2.1
-langchain-core>=0.2.1
-langchain-astradb
-langchain-huggingface
-langchain-groq>=0.2.1
-langchain-community>=0.2.1
+langchain==0.3.27
+langchain-core==0.3.79
+langchain-astradb==1.0.0
+langchain-huggingface==0.3.1
+langchain-groq==0.3.8
+langchain-community==0.3.27
 datasets
 pypdf
 python-dotenv
